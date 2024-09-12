@@ -15,3 +15,10 @@ def solution(A, B):
 for i in sys.stdin:
     A, B = map(int, i.split(" "))
     print(solution(A, B))
+
+# while True:
+#     try:
+#         A, B = map(int, sys.stdin.readline().split())
+#         print(solution(A, B))
+#     except:
+#         break
